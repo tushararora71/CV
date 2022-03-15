@@ -14,6 +14,7 @@
                 height: 2px;
             }
         </style>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
         <table cellspacing="20">
@@ -179,6 +180,14 @@
             </tr>
         </table>
         <hr>
+        <br><br>
+	    <button class="Your_button_class">Chat With Me</button>
+	    <script>
+		    $("Your_button_class").click(function(){
+    			$('.helpButtonEnabled').trigger("click");
+			});
+	    </script>
+	    <hr>
         <br><br>
         <a href="hobbies.html">My Hobbies</a>&nbsp;<a href="contactme.html">Contact Me</a>
         <style type='text/css'>
